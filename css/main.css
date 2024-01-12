@@ -1,0 +1,484 @@
+body {
+    font-family: 'DroidArabicKufi';
+    font-weight: normal;
+    font-style: normal;
+ }
+ /* start top menu  */
+ .navbar-dark {
+    padding-top: 25px;
+    border-bottom: 1px solid #ddd;
+ }
+ .navbar-dark .navbar-nav .nav-link{
+    font-size: 14px;
+    color: #090909;
+ }
+ .btn-aldeim-color {
+    background: #00acd0;
+    color: #fff !important;
+    width: 125px;
+    border-radius: 10px;
+    background-color: #00acd0;
+    border: none;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: #00acd0;
+}
+.dropdown .text-dark{
+    color: #00acd0 !important;
+    font-weight: bold;
+}
+.social-link{
+    border: 1px solid #00acd0;
+    margin-left: 5px;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    transition: all .5s ease-in-out;
+}
+.social-link a i {
+    color: #00acd0;
+    font-size: 18px;
+}
+.social-link:hover a i,
+.social-link:hover{
+    color: #fff;
+    border-color: #fff;
+    background-color: #00acd0;
+
+}
+/* End Top menu */
+/* Start logo Section */
+.logo-section{
+
+}
+.logo-section img{
+    width: 120px;
+}
+.logo-section i {
+    margin-left: 31px;
+    font-size: 18px;
+    color: #0765a4;
+    position: relative;
+}
+.logo-section i span.badge.badge-pill.badge-danger {
+    z-index: 1;
+    position: absolute;
+    left: 8px;
+    top: -20px;
+}
+.logo-section form{display: inline-block;}
+.logo-section form input{
+    display: inline-block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+.logo-section form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.logo-section form button{
+    border: none;
+    background: none;
+}
+/* End logo Section */
+/* Start Dropdown Menu */
+.dropdown-section{
+    border-top: 1px solid #ddd;
+}
+.dropdown-section .dropdown{
+    display: inline-block;
+    width: 12%;
+}
+.dropdown-section .dropdown .btn{
+    border: none;
+    background: #fff;
+    color: #000;
+    outline: none;
+    box-shadow: none !important;
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+    border-radius:0 ;
+    transition: background .5s ease-in-out ;
+}
+.dropdown-section .dropdown .btn:hover{
+    background-color: #0765a4;
+    color: #fff;
+    border-radius: 0;
+}
+/* End Dropdown Menu */
+/* start carousel section */
+.caruosel-section .carousel-indicators {
+    position: unset;
+    margin-top: 10px;
+}
+.caruosel-section .carousel-indicators li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #adadad;
+}
+.caruosel-section .carousel-indicators li.active{
+    background-color: #00acd0;
+}
+.caruosel-section button{
+    opacity:unset;
+
+}
+.caruosel-section i{
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    color: #00acd0;
+    line-height: 60px;
+}
+/* end carousel section */
+/* Start category section  */
+.category h4{
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.category .category-box{
+    background-color: #f5f5f7;
+    padding: 25px;
+    margin: 0 0 10px 0;
+}
+
+.category .category-box:nth-child(4),
+.category .category-box:nth-child(5),
+.category .category-box:nth-child(6){
+    margin:0;
+}
+.category img {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    height: 150px;
+    object-fit: cover;
+}
+.category .center-div{
+    margin-top: 20%;
+}
+/* End  category section */
+/* start New item */
+.new-item .img-container{
+	width:100%;
+	position: relative;
+	display: inline-block;
+	margin: 10px 5px 5px;
+    border-radius: 10px;
+    background-color: #d9f4f9;
+    padding: 25px;
+}
+.new-item .img-container img{
+    width: 100%;
+    object-fit: cover;
+}
+.new-item .img-text{
+    top: 30px;
+    width: 150px;
+    height: 50px;
+    margin-top: -25px;
+    position: absolute;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+.new-item .img-text.price {
+    top: 22%;
+    font-weight: normal;
+}
+.new-item .link.img-text {
+    top: 94%;
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+}
+.new-item .link.img-text:hover{
+    text-decoration: underline;
+}
+.new-item .img-text.price.only-price {
+    top: 12%;
+}
+/* Start New Item */
+/* Start Tabs Section */
+.tabs{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.tabs .nav-tabs{
+    justify-content: space-around;
+    border-bottom: none;
+}
+.tabs .nav-tabs button {
+    border: none;
+    background: none;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.tabs .nav-tabs button.active{
+    border-bottom: 2px solid #00acd0;
+}
+
+
+
+
+.tabs .card {
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* box-shadow: 3px 2px 10px 2px #ccc; */
+}
+
+.tabs .like {
+    color: #757575;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.tabs .like-checked {
+    color: #E53935;
+}
+
+.tabs .like:hover {
+    color: #E53935;
+    cursor: pointer;
+}
+
+.tabs .pic1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.tabs .product-pic {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+}
+
+.tabs .card-1 {
+    padding: 30px 30px 20px 30px !important;
+    border: none;
+    width: 375px;
+}
+
+.tabs .category {
+    margin-top: 0;
+    position: relative;
+    top: -18px;
+    text-decoration: line-through;
+    color: red;
+    font-weight: bold;
+}
+
+.tabs .product-name {
+    padding-bottom: 15px;
+    font-family: Florence;
+    font-weight: bold;
+    color: #00acd0;
+    padding-top: 10px;
+}
+
+.tabs .price {
+    font-size: 18px;
+    color: #00acd0;
+}
+
+.tabs .sm-text {
+    font-size: 14px;
+}
+
+.tabs .fa-star {
+    color: #FF6F00;
+    cursor: pointer;
+}
+
+.tabs .fa-star-o {
+    color: #FF6F00;
+    cursor: pointer;
+}
+/* End Tabs Section */
+/* start saying section */
+.saying{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.saying .h1{
+    position: relative;
+    display: inline-block;
+}
+.saying .h1::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    background: #00acd0;
+}
+.saying .box{
+    margin-top: 40px;
+    box-shadow: 3px 2px 10px 2px #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+.saying .box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.saying .box p.lead{
+    font-size: 16px;
+}
+.saying .box span.name{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.saying .fa-star {
+    color: #FF6F00;
+    cursor: pointer;
+}
+
+.saying .fa-star-o {
+    color: #FF6F00;
+    cursor: pointer;
+}
+/* End saying section */
+/* start saving section */
+.saving {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #00adcc;
+    color: #fff;
+}
+
+.saving span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.saving input {
+    position: relative;
+    border-radius: 15px;
+}
+
+.saving button {
+    position: absolute;
+    top: 4px;
+    left: 10%;
+    padding: 4px;
+}
+/* End saving section */
+/* Start Why us Section */
+.why-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.why-us .h1 {
+    margin-bottom: 25px;
+    color: #00adcc;
+    font-weight: bolder;
+}
+
+
+.why-us .box i {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0765a4;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.why-us .box p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0765a4;
+    text-align: revert;
+}
+
+.why-us .box p:last-of-type {
+    font-weight: normal;
+}
+/* End Why Us Section */
+/* start Footer */
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #0765a4;
+    color: #fff;
+}
+
+footer ul li {
+    list-style: square;
+    font-weight: bold;
+    text-align: right;
+}
+
+footer .h1 {
+    font-weight: bold;
+    font-size: 27px;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 24px;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer p.lead {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+footer a {
+    display: inline-block;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+footer .social i {
+    margin-right: 19px;
+    font-size: 22px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+footer .social i:hover {
+    background: #fff;
+    color: #125ea0;
+}
+
+footer .payment {
+    width: 100%;
+    object-fit: contain;
+}
+footer .need-help {
+    margin-top: 20px;
+}
+footer .rights .right-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* End Footer */
